@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Motospeed CK104 Mechanical Keyboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <script src="js/java.js"></script>
+</head>
+<header>
+    <div id="nav-bar">
+        <img src="resources/moto-logo-solo.png" id="moto-logo-solo">
+        <img src="resources/moto-logo-text.png" id="moto-logo-text">
+        <div id="home-btn-container">
+                <span id="home-a">Home</span>
+        </div>
+        <div id="dropdown-container">
+            <div id="dropdown-btn-container">
+                 <div id="dropdown-btn">
+                    <span id="dropdown-a">About</span>
+                 </div>
+                 
+                    <div id="dropdown-content">
+                        <span class="dropdown-item" id="tomechanical">Mechanical</span>
+                        <a class="dropdown-item" id="tolighting">Lighting</a>
+                        <a class="dropdown-item" id="tobuy">Buy Now</a>
+                        <span class="dropdown-item" id="towholesale">Wholesale</span>
+                        <div id="dropdown-arrow"><img id="arrow-img" src="resources/arrow-down.png"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="content-big" id="landing-block">
+        <div id="landing-content">
+            <div id="landing-text">
+                <h1>MOTOSPEED CK104</h1>
+                <h2>The perfect keyboard for your gaming needs</h2>
+            </div>
+            <img id="landing-image" src="resources/keyboard-main.png">
+            
+        </div>
+    </div>
+    <div class="content-small" id="about">
+        <div class="color-strip-top"></div>
+        <div id="about-info">
+            <div id="about-text">
+                <h1>About</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div id="about-block-container">
+                <div class="about-block" id="about-mechanical">
+                    <img src="resources/switch-icon.png" class="about-small-img">
+                    <p>Mechanical<br>Switches</p>
+                </div>
+                <div class="about-block" id="about-rgb">
+                    <img src="resources/bulb-icon.png" class="about-small-img">
+                    <p>RGB<br>Lighting</p>
+                </div>
+                <div class="about-block" id="about-nkey">
+                    <img src="resources/nkey-rollover.png" class="about-small-img">
+                    <p>N-Key<br>Rollover</p>    
+                </div>
+            </div>
+        </div>
+        <div id="about-image">
+            <div class="empty"></div>
+            <div id="about-arrow">
+                <div class="triangle"></div>
+                <div class="rectangle">
+                    <img src="resources/keyboard-red.png" id="about-kbimg">
+                </div>
+            </div>
+            <div class="empty"></div>
+        </div>
+        <div class="color-strip-bottom"></div>
+    </div>
+    <div class="content-small" id="mechanical">
+        <div id="mechanical-image-container">
+            <div id="mechanical-image-container-bg" class="image-slider-container">
+                <img src="resources/blue-switch.png" id="mechanical-image-blue">
+                <img src="resources/red-switch.png" id="mechanical-image-red">
+            </div>
+        </div>
+        <div id="mechanical-text">
+            <h1>Fully Mechanical</h1>
+            <ul id="mechanical-ul">
+                <li>High quality Outemu Switches, available in two different colors: Red and Blue</li>
+                <li id="blue-li">Blue Switches provide a great sense of feedback and tactile feeling while also making clicky noises</li>
+                <li id="red-li">Red Switches have a linear pushing force with little to no sound emmision</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content-video" id="lighting">
+        <div class="color-strip-top" id="video-strip-t"></div>
+        <div id="video-arrow">
+            <div id="video-text">
+                <h1>RGB<br>Backlight</h1>
+                <p>- 18 unique lighting<br>effects</p>
+                <p>- 5 custom modes</p>
+            </div>
+            <div class="rectangle" id="video-rectangle"></div>
+            <div class="triangle" id="video-triangle"></div>
+        </div>
+        <div id="video-arrow-shadow">
+                <div class="rectangle" id="video-rectangle-shadow"></div>
+                <div class="triangle" id="video-triangle-shadow"></div>
+        </div>
+        <div id="video-container">
+            <video width="1920" height="920" id="video-tag" autoplay muted loop>
+                <source src="resources/keyboard-video.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="color-strip-bottom" id="video-strip-b"></div>
+    </div>
+    <div class="content-small" id="split">
+        <div id="antighost">
+            <div id="antighost-text">
+                <h1>Anti-Ghosting</h1>
+                <p>N-Key Rollover system, meaning all keys can<br>be pressed at once without any conflicts</p>
+            </div>
+            <div id="anti-img-container">
+                <img src="resources/keyboard-half-left.png" id="anti-img">
+            </div>
+        </div>
+        <div id="durable">
+            <div id="durable-text">
+                <h1>Extremely Durable</h1>
+                <p>Enjoy your keyboard without worries thanks<br>to the 50 million hits lifespan</p>
+            </div>
+            <div id="durable-img-container">
+                <img src="resources/keyboard-half-right.png" id="durable-img">
+            </div>
+        </div>
+    </div>
+    <div class="content-big" id="buy">
+        <h1>Available in 3 different colors</h1>
+        <div id="buy-container">
+            <div id="buy-color-container">
+                <div id="buy-color-image-container">
+                    <img src="resources/keyboard-silver.png" class="buy-color-image transition-in" id="silver-image">
+                    <img src="resources/keyboard-red.png" class="buy-color-image transition-out left" id="red-image">
+                    <img src="resources/keyboard-pink.png" class="buy-color-image transition-out left" id="pink-image">
+                </div>
+                <div id="buy-color-select-container">
+                    <div id="color-ball-container">
+                        <div id="color1" class="ball-selected">
+                            <img src="resources/ball-color-silver.png" id="silver-color" class="ball-image">
+                        </div>
+                        <div id="color2">
+                            <img src="resources/ball-color-red.png" id="red-color" class="ball-image">    
+                        </div>
+                        <div id="color3">
+                            <img src="resources/ball-color-pink.png" id="pink-color" class="ball-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="buy-switch-select-container">
+                <div id="gearbest-container">
+                    <p>Supplied by</p>
+                    <img src="resources/gearbest-logo.png" id="gearbest-logo">
+                </div>
+                <div id="switch-select-container">
+                    <p>Select Switch:</p>
+                    <div id="switch-select-image-container">
+                        <img src="resources/blue-switch-choose-s.png" id="select-blue" class="switch-select-image switch-selected">
+                        <img src="resources/red-switch-choose.png" id="select-red" class="switch-select-image">
+                    </div>
+                </div>
+                <div id="buy-now-button">
+                    <p id="bnowp">Buy Now</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content-big" id="wholesale">
+        <div id="wholesale-text">
+            <h1>Wholesale Inquiries</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        </div>
+        <div id="wholesale-input">
+            <form action="">
+                <label>
+                    <h2>Name:</h2><input type="text" name="name" id="input-name" class="wholesale-input" required>
+                </label>
+                <label>
+                    <h2>Email:</h2><input type="email" name="email" id="input-email" class="wholesale-input" required>
+                </label>
+                <label>
+                    <h2>Message:</h2><textarea name="message" id="input-message" class="wholesale-input" required></textarea>
+                </label>
+                <br>
+                <input type="submit" value="Submit" id="input-submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
