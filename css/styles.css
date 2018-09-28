@@ -6,17 +6,17 @@ html, body{
 
 @font-face{
     font-family: Coolvetica;
-    src: url("../_resources/coolvetica.ttf");
+    src: url("../resources/coolvetica.ttf");
 }
 
 @font-face{
     font-family: Couture;
-    src: url("../_resources/couture-bld.ttf");
+    src: url("../resources/couture-bld.ttf");
 }
 
 @font-face{
     font-family: Open-Sans;
-    src: url("../_resources/opensans.ttf");
+    src: url("../resources/opensans.ttf");
 }
 
 .content-small{
@@ -216,7 +216,7 @@ li a{
     background-color: #151515;
     background-repeat: repeat;
     background-position: center;
-    background-image: url("../_resources/background-keyboard.png"), linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1));
+    background-image: url("../resources/background-keyboard.png"), linear-gradient(to left, rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1));
 }
 
 #landing-image{
